@@ -1700,3 +1700,23 @@ padding: 0; }
     text-align: center; } 
   .footer h3 {
       margin-top: 10px; } }
+
+#companySelect {
+  font-size: 18px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: 2px solid #007bff;
+  min-width: 60%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fff;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+#companySelect:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.3);
+}
+
