@@ -965,6 +965,16 @@
 
     <!-- esg js -->
     <script src="js/esg.js"></script>
+    
+    <script>
+      window.onload = function () {
+        const companySelect = document.getElementById("companySelect");
+        companySelect.value = "Pfizer_Inc.";  // ✅ 设置默认选中公司
+        updateESGCharts(); // ✅ 同步图表和导航栏
+      };
+    </script>
+
+    
 </body>
 
 </html>
